@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* reset para rems 62.5% = 10 px de 16px */
+    scroll-behavior: smooth;
+    /*  con esto hacemos el scroll deslizante  en la pagina principal*/
+}
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0rem;
+    /* con esto lo colocamos a la derecha */
+    /* Establecemos la barra en la izquierda */
+    top: 25rem;
+    /* Bajamos la barra 130px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook2 {
+    background: #3b5998;
+}
+
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+
+.social ul li .icon-twitter {
+    background: #1da1f3;
+}
+
+.social ul li .icon-instagram {
+    background: #ed1e79;
+    background: -moz-linear-gradient(to right, #ed1e79 0%, #662d8c 100%);
+    background: -webkit-linear-gradient(to right, #ed1e79 0%, #662d8c 100%);
+    background: linear-gradient(to right, #ed1e79 0%, #662d8c 100%);
+    ;
+}
+
+.social ul li .icon-linkedin {
+    background: #0e76a8;
+}
+
+.social ul li .icon-play {
+    background: #ff0000;
+}
+
+.social ul li .icon-mail {
+    background: #000000;
+}
+
+.social ul li .icon-whatsapp {
+    background: #71b100;
+}
+
+.social ul li .icon-phone {
+    background: #26c599;
+}
+
+.social ul li .icon-location {
+    background: rgba(66, 133, 244, 1);
+    background: -moz-linear-gradient(-45deg, rgba(66, 133, 244, 1) 0%, rgba(219, 68, 55, 1) 35%, rgba(244, 180, 0, 1) 68%, rgba(15, 157, 88, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(66, 133, 244, 1)), color-stop(35%, rgba(219, 68, 55, 1)), color-stop(68%, rgba(244, 180, 0, 1)), color-stop(100%, rgba(15, 157, 88, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(66, 133, 244, 1) 0%, rgba(219, 68, 55, 1) 35%, rgba(244, 180, 0, 1) 68%, rgba(15, 157, 88, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(66, 133, 244, 1) 0%, rgba(219, 68, 55, 1) 35%, rgba(244, 180, 0, 1) 68%, rgba(15, 157, 88, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(66, 133, 244, 1) 0%, rgba(219, 68, 55, 1) 35%, rgba(244, 180, 0, 1) 68%, rgba(15, 157, 88, 1) 100%);
+    background: linear-gradient(135deg, rgba(66, 133, 244, 1) 0%, rgba(219, 68, 55, 1) 35%, rgba(244, 180, 0, 1) 68%, rgba(15, 157, 88, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4285f4', endColorstr='#0f9d58', GradientType=1);
+}
+
+.social ul li a:hover {
+    background: #e08709;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 1rem 3rem;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
