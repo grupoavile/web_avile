@@ -1,7 +1,7 @@
-&iuml;&raquo;&iquest;<?php
+<?php
 $remitente = $_POST['email'];
-$destinatario = 'contacto@grupoavile.com.mx,cto.grupo.avile@gmail.com,direccion.grupo.avile@gmail.com,admcondominis12@gmail.com'; // en esta l&Atilde;&shy;nea va el mail del destinatario.
-$asunto = 'Solicitud Informaci&Atilde;&sup3;n Grupo Avile'; // ac&Atilde;&iexcl; se puede modificar el asunto del mail
+$destinatario = 'contacto@grupoavile.com.mx,cto.grupo.avile@gmail.com,direccion.grupo.avile@gmail.com,juridicointegral1@hotmail.com'; // en esta l&Atilde;&shy;nea va el mail del destinatario.
+$asunto = 'Solicitud Información Administración Grupo Avile'; // aca se puede modificar el asunto del mail
 if (!$_POST){
 ?>
 
